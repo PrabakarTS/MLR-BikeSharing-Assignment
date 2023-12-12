@@ -15,6 +15,27 @@ A bike-sharing system is a service in which bikes are made available for shared 
 
 A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state.
 
+## Steps followed
+- Reading and Understanding the Data
+- Drop the un-wanted columns
+- Mapping correct values to categorical values
+- Visualising Data (EDA)
+- dummy variable creation for categorical variable
+- Train & Test data split
+- Rescaling the Features - Train
+- Dividing into X and Y sets for the model building
+- Model building (iterative process)
+    - RFE
+    - Building model using statsmodel
+    - calculate VIF
+    - drop column based on p-value and VIF
+- Residual Analysis of the train data
+- Making Predictions
+- Model Evaluation
+  - Checking the R-squared
+  - Adjusted R-Square value
+- conclusion
+
 ## Conclusions
 - From the variable ‘season’, we clear see bike demand is low in the ‘spring’ season
 and high in the ‘fall’ season.
@@ -37,7 +58,7 @@ to working day.
 ## Technologies Used
 - python - version 3.0
 
-# Python library Used
+### Python library Used
 - numpy
 - pandas
 - matplot
